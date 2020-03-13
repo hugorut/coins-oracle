@@ -80,6 +80,6 @@ will give an output:
 {"message":"pong"}
 ```
 
-## Running Coins Locally
+## Running Crypto Nodes Locally
 
 If you are looking to interact with some of the crypto APIs in a local environment, take a peek at my other project: [docker-crypto](https://github.com/hugorut/docker-crypto) which cointains a handy list of dockerfiles for various cryptocurrencies.
