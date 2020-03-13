@@ -1,0 +1,5 @@
+{
+  "action": "block_info",
+  "json_block": "true",
+  "hash": "%s"
+}

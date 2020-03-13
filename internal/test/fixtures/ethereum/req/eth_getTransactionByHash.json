@@ -1,0 +1,8 @@
+{
+  "jsonrpc": "2.0",
+  "method": "eth_getTransactionByHash",
+  "params": [
+    "%s"
+  ],
+  "id": 2
+}

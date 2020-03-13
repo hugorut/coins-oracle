@@ -1,0 +1,8 @@
+{
+  "jsonrpc": "2.0",
+  "method": "getaccountstate",
+  "params": [
+    "%s"
+  ],
+  "id": 1
+}

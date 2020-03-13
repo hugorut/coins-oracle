@@ -1,0 +1,43 @@
+{
+  "Right": {
+    "ctsId": "%s",
+    "ctsTxTimeIssued": 1511264651,
+    "ctsBlockTimeIssued": 1511264651,
+    "ctsBlockHeight": 253039,
+    "ctsBlockEpoch": 11,
+    "ctsBlockSlot": 15478,
+    "ctsBlockHash": "f0479bf02d20e89e5ec31fb1e0c210a30b3f79c143afa02a089d0e6947f476a3",
+    "ctsRelayedBy": null,
+    "ctsTotalInput": {
+      "getCoin": "7748527449475"
+    },
+    "ctsTotalOutput": {
+      "getCoin": "7748527278229"
+    },
+    "ctsFees": {
+      "getCoin": "171246"
+    },
+    "ctsInputs": [
+      [
+        "DdzFFzCqrhsetDGW9EV3pQgGPxeHCyeo7LSruMcvu9U8zUqr23eZVZPL5K6KareJDtQpago7y7R4M3Gd941FvC4BXPULaD8Z8myRiFjj",
+        {
+          "getCoin": "7748527449475"
+        }
+      ]
+    ],
+    "ctsOutputs": [
+      [
+        "DdzFFzCqrht66tunNTdhEUfKFGE5sAqeJjvafxSJ1u7XEh2GBkAR6SZsGetCorjsR2mRreU7SqqddaEeQ13CtFmiBqonPtMUoHvPWkrX",
+        {
+          "getCoin": "7738873796335"
+        }
+      ],
+      [
+        "DdzFFzCqrht2wz9zmY2azGSi8LiZrKbtDEDWsgEhteEyGpfTqeHVUkuarFANvwrNsgecz4WHBKmEAjTe8QuUbj7tTgW2eChF8H4upmxe",
+        {
+          "getCoin": "9653481894"
+        }
+      ]
+    ]
+  }
+}

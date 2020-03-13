@@ -1,0 +1,18 @@
+{
+  "result": [
+    {
+      "txid": "8f2334f4037a945a0101408b5eacf657639d31548d22ef0f627f65eb00f0d36d",
+      "vout": 0,
+      "address": "3EdTTxcfptcBziNR1YH3pdcWdQ923jSXaR",
+      "label": "",
+      "scriptPubKey": "a9148ded4add6c0a5396c2e686acfea3558601f8851687",
+      "amount": %f,
+      "confirmations": 33,
+      "spendable": false,
+      "solvable": false,
+      "safe": true
+    }
+  ],
+  "error": null,
+  "id": "1"
+}

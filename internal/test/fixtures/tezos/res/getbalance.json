@@ -1,0 +1,10 @@
+{
+  "manager": "tz1Kt4P8BCaP93AEV4eA7gmpRryWt5hznjCP",
+  "balance": "%s",
+  "spendable": true,
+  "delegate": {
+    "setable": false,
+    "value": "tz1Kt4P8BCaP93AEV4eA7gmpRryWt5hznjCP"
+  },
+  "counter": "22499"
+}

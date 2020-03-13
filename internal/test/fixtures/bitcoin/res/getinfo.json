@@ -1,0 +1,58 @@
+{
+  "result": {
+    "chain": "main",
+    "blocks": 595303,
+    "headers": 595303,
+    "bestblockhash": "%s",
+    "difficulty": 11890594958795.76,
+    "mediantime": 1568729415,
+    "verificationprogress": 0.9999947111378521,
+    "initialblockdownload": false,
+    "chainwork": "000000000000000000000000000000000000000008908cb5e95183ef92ae0ca0",
+    "size_on_disk": 103680099352,
+    "pruned": true,
+    "pruneheight": 500787,
+    "automatic_pruning": true,
+    "prune_target_size": 104857600000,
+    "softforks": [
+      {
+        "id": "bip34",
+        "version": 2,
+        "reject": {
+          "status": true
+        }
+      },
+      {
+        "id": "bip66",
+        "version": 3,
+        "reject": {
+          "status": true
+        }
+      },
+      {
+        "id": "bip65",
+        "version": 4,
+        "reject": {
+          "status": true
+        }
+      }
+    ],
+    "bip9_softforks": {
+      "csv": {
+        "status": "active",
+        "startTime": 1462060800,
+        "timeout": 1493596800,
+        "since": 419328
+      },
+      "segwit": {
+        "status": "active",
+        "startTime": 1479168000,
+        "timeout": 1510704000,
+        "since": 481824
+      }
+    },
+    "warnings": "Warning: Unknown block versions being mined! It's possible unknown rules are in effect"
+  },
+  "error": null,
+  "id": "1"
+}

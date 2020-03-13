@@ -1,0 +1,27 @@
+{
+  "signature": [
+    "cabadb93d0bcb07fd809cefd04e036851d7b05810024269bfb59eb30bc0513d4511edb040631e6a49fc6be9af89fa945fa2de3f29fbc88233f49b00be9ad4dcf01"
+  ],
+  "txID": "%s",
+  "raw_data": {
+    "contract": [
+      {
+        "parameter": {
+          "value": {
+            "amount": 37,
+            "asset_name": "54656c656772616d",
+            "owner_address": "418649a090f0ab3ce904f45e72bbba4c3e984f5b88",
+            "to_address": "41bceca4dec569b6a112600373a37751a6ea5dc744"
+          },
+          "type_url": "type.googleapis.com/protocol.TransferAssetContract"
+        },
+        "type": "TransferAssetContract"
+      }
+    ],
+    "ref_block_bytes": "acb8",
+    "ref_block_hash": "b9e81835a132154a",
+    "expiration": 1537921101000,
+    "timestamp": 1537920803492
+  },
+  "raw_data_hex": "0a02acb82208b9e81835a132154a40c8d9f699e12c5a74080212700a32747970652e676f6f676c65617069732e636f6d2f70726f746f636f6c2e5472616e736665724173736574436f6e7472616374123a0a0854656c656772616d1215418649a090f0ab3ce904f45e72bbba4c3e984f5b881a1541bceca4dec569b6a112600373a37751a6ea5dc744202570a4c5e499e12c"
+}

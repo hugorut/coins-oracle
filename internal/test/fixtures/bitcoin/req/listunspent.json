@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "1.0",
+  "id": 1,
+  "method": "listunspent",
+  "params": [
+    1,
+    9999999,
+    [
+      "%s"
+    ]
+  ]
+}

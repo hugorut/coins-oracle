@@ -1,0 +1,8 @@
+{
+    "method": "account_info",
+    "params": [
+        {
+            "account": "%s"
+        }
+    ]
+}

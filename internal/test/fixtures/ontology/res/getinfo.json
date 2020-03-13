@@ -1,0 +1,7 @@
+{
+  "Action": "getblockheight",
+  "Desc": "SUCCESS",
+  "Error": 0,
+  "Result": %d,
+  "Version": "1.0.0"
+}

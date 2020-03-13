@@ -1,0 +1,20 @@
+{
+  "blocksize": 12321,
+  "reward": 600000000,
+  "signature": "2mnBXHijboV55MCUYNqNZemgps5ZR64Md1NpcX4r5GC4dCEXwjGGSKHXTWoFTzhxrkHmbUNHPWFdbtHHz1tbBL8t",
+  "fee": 15300000,
+  "generator": "3P2HNUd5VUPLMQkJmctTPEeeHumiPN2GkTb",
+  "transactions": [],
+  "version": 4,
+  "reference": "4zWzyaPboLbAwTZWJW95AKHt6nPRHztPVbgz8CzbnwanWNhNefS2kU2egJMPRcstG8V9R5YxguNHcRrSimu9GFWZ",
+  "features": [],
+  "totalFee": 15300000,
+  "nxt-consensus": {
+    "base-target": 65,
+    "generation-signature": "FFcH878dLy1nSaJn5qhR3V1CxCUjqBhymM8yG9EyC9Cw"
+  },
+  "desiredReward": -1,
+  "transactionCount": 28,
+  "timestamp": 1570702899626,
+  "height": %d
+}

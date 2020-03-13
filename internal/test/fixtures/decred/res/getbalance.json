@@ -1,0 +1,13 @@
+{
+  "addrStr": "DcuL8ZTg9jfhJezHWV8zykMTJGHwXv2pLWD",
+  "balance": %f,
+  "balanceSat": 350074025814,
+  "totalReceived": 19215.12488637,
+  "totalReceivedSat": 1921512488637,
+  "totalSent": 15714.38462823,
+  "totalSentSat": 1571438462823,
+  "unconfirmedBalance": 0,
+  "unconfirmedBalanceSat": 0,
+  "unconfirmedTxApperances": 0,
+  "txApperances": 278
+}

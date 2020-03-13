@@ -1,0 +1,57 @@
+{
+    "result": {
+        "info": {
+            "build_version": "1.3.1",
+            "complete_ledgers": "50410725-50411128",
+            "hostid": "GIRL",
+            "io_latency_ms": 1,
+            "jq_trans_overflow": "0",
+            "last_close": {
+                "converge_time_s": 2.002,
+                "proposers": 32
+            },
+            "load_factor": 516.8046875,
+            "load_factor_server": 1,
+            "peer_disconnects": "3",
+            "peer_disconnects_resources": "0",
+            "peers": 10,
+            "pubkey_node": "n94KEbEqWZLZng9BTasi64mKAA156PjgVrEj8QPGCFDyvZyD6SLa",
+            "server_state": "full",
+            "server_state_duration_us": "100167425",
+            "state_accounting": {
+                "connected": {
+                    "duration_us": "235155713",
+                    "transitions": 1
+                },
+                "disconnected": {
+                    "duration_us": "2237529",
+                    "transitions": 1
+                },
+                "full": {
+                    "duration_us": "593236824",
+                    "transitions": 2
+                },
+                "syncing": {
+                    "duration_us": "5413882",
+                    "transitions": 2
+                },
+                "tracking": {
+                    "duration_us": "1",
+                    "transitions": 2
+                }
+            },
+            "time": "2019-Oct-01 12:47:24.745319",
+            "uptime": 836,
+            "validated_ledger": {
+                "age": 3,
+                "base_fee_xrp": 0.00001,
+                "hash": "%s",
+                "reserve_base_xrp": 20,
+                "reserve_inc_xrp": 5,
+                "seq": 50411128
+            },
+            "validation_quorum": 27
+        },
+        "status": "success"
+    }
+}

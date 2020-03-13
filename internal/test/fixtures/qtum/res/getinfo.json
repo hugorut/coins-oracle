@@ -1,0 +1,22 @@
+[
+  {
+    "hash": "%s",
+    "height": %d,
+    "timestamp": 1571740928,
+    "interval": 64,
+    "size": 3603,
+    "transactionCount": 13,
+    "miner": "QbPSbNu7V4sndHfHytTxDfeTzz3CSJFfVx",
+    "reward": "404645941"
+  },
+  {
+    "hash": "5879d06ee94f2898e5bbb27a92dc9ebd7029793619d66c45c8b31e26cff2dd1c",
+    "height": 469839,
+    "timestamp": 1571740864,
+    "interval": 176,
+    "size": 10871,
+    "transactionCount": 28,
+    "miner": "QUFwvRXTnjnWmGVYxaXZoEAmMkKtkth8ND",
+    "reward": "407083568"
+  }
+]

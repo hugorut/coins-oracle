@@ -1,0 +1,50 @@
+package transport
+
+import (
+	"net/http"
+	"net/url"
+
+	"github.com/hugorut/coins-oracle/pkg/transport"
+)
+
+var (
+	{{ .Name }}AssetID = "{{ .AssetID }}"
+)
+
+// {{ .Name }}Client is the {{ .Name }} implementation of the CoinClient
+type {{ .Name }}Client struct {
+	BaseClient
+}
+
+// New{{ .Name }}Client returns a new client using os variables.
+func New{{ .Name }}Client() (*{{ .Name }}Client, error) {
+	u, err := url.Parse(getNodeURL("{{ .NameUpper }}_URL"))
+	if err != nil {
+		return nil, err
+	}
+
+	return &{{ .Name }}Client{
+		BaseClient: transport.BaseClient{
+			BaseURL: u,
+			Client: &http.Client{
+				Timeout: transport.DefaultClientTimeout,
+			},
+			Log: transport.StdLogger,
+		},
+	}, nil
+}
+
+// GetInfo attempts to get standardised coin info from multiple rpc calls.
+func (b {{ .Name }}Client) GetInfo() (*transport.CoinState, error) {
+	return &transport.CoinState{}, nil
+}
+
+// GetBalance returns the balance of the address.
+func (b {{ .Name }}Client) GetBalance(addr string) (*transport.Balance, error) {
+	return &transport.Balance{}, nil
+}
+
+// GetTransactionByHash returns the transaction stored at the given hash.
+func (b {{ .Name }}Client) GetTransactionByHash(hash string) (*transport.TransactionResp, error) {
+	return &transport.TransactionResp{}, nil
+}

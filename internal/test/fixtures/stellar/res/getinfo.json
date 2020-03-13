@@ -1,0 +1,56 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://127.0.0.1/ledgers?cursor=\u0026limit=1\u0026order=desc"
+    },
+    "next": {
+      "href": "http://127.0.0.1/ledgers?cursor=112474868380860416\u0026limit=1\u0026order=desc"
+    },
+    "prev": {
+      "href": "http://127.0.0.1/ledgers?cursor=112474868380860416\u0026limit=1\u0026order=asc"
+    }
+  },
+  "_embedded": {
+    "records": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://127.0.0.1/ledgers/26187596"
+          },
+          "transactions": {
+            "href": "http://127.0.0.1/ledgers/26187596/transactions{?cursor,limit,order}",
+            "templated": true
+          },
+          "operations": {
+            "href": "http://127.0.0.1/ledgers/26187596/operations{?cursor,limit,order}",
+            "templated": true
+          },
+          "payments": {
+            "href": "http://127.0.0.1/ledgers/26187596/payments{?cursor,limit,order}",
+            "templated": true
+          },
+          "effects": {
+            "href": "http://127.0.0.1/ledgers/26187596/effects{?cursor,limit,order}",
+            "templated": true
+          }
+        },
+        "id": "15040c1d611cdc88946b47baf19ae78ab1d842487b0e61586de3848065bd3f45",
+        "paging_token": "112474868380860416",
+        "hash": "%s",
+        "prev_hash": "673a415a1bf3e6b0fdf97ddb04adf713b96d3029bdafc85e3a4c4a9bad2efd78",
+        "sequence": 26187596,
+        "successful_transaction_count": 39,
+        "failed_transaction_count": 25,
+        "operation_count": 280,
+        "closed_at": "2019-10-07T09:35:15Z",
+        "total_coins": "105383593993.4995290",
+        "fee_pool": "1677970.4083076",
+        "base_fee_in_stroops": 100,
+        "base_reserve_in_stroops": 5000000,
+        "max_tx_set_size": 1000,
+        "protocol_version": 11,
+        "header_xdr": "AAAAC2c6QVob8+aw/fl92wSt9xO5bTApva/IXjpMSputLv14QorJa0pjO9FpQ/a4Q9/jV8jNY+WHena+dW8xsM2EzFUAAAAAXZsG0wAAAAAAAAAAuffeX7Jmpc1A+TuMZRE6Ws1xDa3dIbLBRAdLpCL95HV1b6W/L9zOmLilUAqBvGqwQcUQYBV5liamTVI4oI/OWgGPl0wOn/o0M12DWgAAD0LUTSKEAAABEwAAAAAHGcxtAAAAZABMS0AAAAPodlDRMVFUfMSx/q0+7vXEXXen+8jeh9EbiuOakpgaGfIGFndJziuvMQ0mf5lye4kKCNpAD8tPbUWEusc4B7yQ6mSESuUOCWSfl44yMLRTdHaTOg9eonugu/kv3w5AUIJlyG3+zc/A1cWvfpnr0rXnL/jFwF6AQdjikSSt8tSYeiMAAAAA"
+      }
+    ]
+  }
+}

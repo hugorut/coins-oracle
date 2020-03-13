@@ -1,0 +1,18 @@
+{
+    "result": {
+        "account_data": {
+            "Account": "%s",
+            "Balance": "%s",
+            "Flags": 0,
+            "LedgerEntryType": "AccountRoot",
+            "OwnerCount": 0,
+            "PreviousTxnID": "9C0D81255B1A33C9F67A451CF0FFDCD929514BDD98FF16D632F35EF6565DD162",
+            "PreviousTxnLgrSeq": 50412180,
+            "Sequence": 39,
+            "index": "8093C98D3700B3049EB94FA1303177F2541F301215229C671A0C0A680BDD8613"
+        },
+        "ledger_current_index": 50412353,
+        "status": "success",
+        "validated": false
+    }
+}

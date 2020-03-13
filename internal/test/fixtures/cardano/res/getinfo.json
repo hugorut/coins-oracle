@@ -1,0 +1,52 @@
+{
+  "Right": [
+    32972,
+    [
+      {
+        "cbeEpoch": 15,
+        "cbeSlot": 5759,
+        "cbeBlkHash": "%s",
+        "cbeTimeIssued": 1512798271,
+        "cbeTxNum": 1,
+        "cbeTotalSent": {
+          "getCoin": "3546284847022"
+        },
+        "cbeSize": 994,
+        "cbeBlockLead": "43011479a595b300e0726910d0b602ffcdd20466a3b8ceeacd3fbc26",
+        "cbeFees": {
+          "getCoin": "171246"
+        }
+      },
+      {
+        "cbeEpoch": 15,
+        "cbeSlot": 5758,
+        "cbeBlkHash": "a6e052c041b92f98c1f5934649dac3fd0cdcfe80d275bef9351a60360d230b2d",
+        "cbeTimeIssued": 1512798251,
+        "cbeTxNum": 0,
+        "cbeTotalSent": {
+          "getCoin": "0"
+        },
+        "cbeSize": 633,
+        "cbeBlockLead": "5411c7bf87c252609831a337a713e4859668cba7bba70a9c3ef7c398",
+        "cbeFees": {
+          "getCoin": "0"
+        }
+      },
+      {
+        "cbeEpoch": 15,
+        "cbeSlot": 5757,
+        "cbeBlkHash": "41031d4d73d526168ebbb9341afa87536fe52d85b07d86f777771c91bf380c4f",
+        "cbeTimeIssued": 1512798231,
+        "cbeTxNum": 0,
+        "cbeTotalSent": {
+          "getCoin": "0"
+        },
+        "cbeSize": 633,
+        "cbeBlockLead": "43011479a595b300e0726910d0b602ffcdd20466a3b8ceeacd3fbc26",
+        "cbeFees": {
+          "getCoin": "0"
+        }
+      }
+    ]
+  ]
+}

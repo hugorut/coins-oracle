@@ -1,0 +1,13 @@
+{
+  "account": "xrb_3q5rs69fjjgci9bn9mwair713dad5cdjpaonmr6odxooccgnnw7xiej85o9c",
+  "amount": "100000000000000000000000000000",
+  "type": "state",
+  "representative": "xrb_3q5rs69fjjgci9bn9mwair713dad5cdjpaonmr6odxooccgnnw7xiej85o9c",
+  "previous": "3A56C01F674FCD63EE49F20D7424525FCC525B6D131BBA50AA463B7615368890",
+  "work": "e1bc84a2d142bbfe",
+  "signature": "7942F88F6B37022DA8549AB16CCEC8701B3CD64B286C4AB1012F9564048012F94E2C8B816F4DEDE95392569D8C22B07D887254F6D897ED5E328E35C693C9B80B",
+  "date": "2019-07-22T22:27:02.513Z",
+  "link": "1DA797E094E5F551C520ABE28706C22C4A1970381B5241C8C3369F51394F6243",
+  "link_as_account": "xrb_19f9kzibbshoc94k3cz4iw5e6d4c57r5i8tka96e8fnzc6wnyrk5mrj91m9z",
+  "balance": "0"
+}

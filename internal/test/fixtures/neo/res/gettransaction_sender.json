@@ -1,0 +1,42 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "txid": "0xabe82713f756eaeebf6fa6440057fca7c36b6c157700738bc34d3634cb765819",
+    "size": 262,
+    "type": "ContractTransaction",
+    "version": 0,
+    "attributes": [],
+    "vin": [
+      {
+        "txid": "0x56c3ebb6a52b71eadc090e9767680a0d0aaec9995698d8cf1e1bffd914dc1182",
+        "vout": 1
+      }
+    ],
+    "vout": [
+      {
+        "n": 0,
+        "asset": "0xc56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b",
+        "value": "7000",
+        "address": "ALDCagdWUVV4wYoEzCcJ4dtHqtWhsNEEaR"
+      },
+      {
+        "n": 1,
+        "asset": "0xc56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b",
+        "value": "983000",
+        "address": "AQHymrTtRim73jAdjL5K734vK6cHNRzgkL"
+      }
+    ],
+    "sys_fee": "0",
+    "net_fee": "0",
+    "scripts": [
+      {
+        "invocation": "406c76edd79429d7bf40e1e36eb175d03b440d7afcfabdda8e49f04c884f592da8b70d1a08775c1c0dc27591766f8da234fb4fa811f37449a59b0a21145b816b22",
+        "verification": "21027160180c3f62b0b035de8ee65ba13432ff22189665149afa5f1f576389d67fe5ac"
+      }
+    ],
+    "blockhash": "0xc3ea66247cd5a7152b6718be3659cf1d112e0b32898b9434180eb151a1adf8db",
+    "confirmations": 3514743,
+    "blocktime": 1494316171
+  }
+}

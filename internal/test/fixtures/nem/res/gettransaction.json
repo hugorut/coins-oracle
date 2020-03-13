@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "innerHash": {},
+    "id": 6263774,
+    "hash": {
+      "data": "%s"
+    },
+    "height": 2355041
+  },
+  "transaction": {
+    "timeStamp": 142533561,
+    "amount": 50000,
+    "signature": "6df9cc96412a2c1a84d81206f7cdb002364e68bccfaaad3bae020645f06427c4b49b2840e184643a7bc6dafef69fa451515b8db411200a03779f92d34b2f330c",
+    "fee": 50000,
+    "recipient": "NDWBJQTYMGDV44YHR3RC4BEH5PY75JQVAWSB6MNQ",
+    "type": 257,
+    "deadline": 142619961,
+    "message": {},
+    "version": 1744830465,
+    "signer": "d22b047b670fd32ad9fa421a37415ab0677a786b916cad34820bcd395066cd49"
+  }
+}

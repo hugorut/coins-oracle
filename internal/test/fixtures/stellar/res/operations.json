@@ -1,0 +1,50 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3/operations?cursor=\u0026limit=10\u0026order=asc"
+    },
+    "next": {
+      "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3/operations?cursor=112478312944852993\u0026limit=10\u0026order=asc"
+    },
+    "prev": {
+      "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3/operations?cursor=112478312944852993\u0026limit=10\u0026order=desc"
+    }
+  },
+  "_embedded": {
+    "records": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://localhost/operations/112478312944852993"
+          },
+          "transaction": {
+            "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3"
+          },
+          "effects": {
+            "href": "http://localhost/operations/112478312944852993/effects"
+          },
+          "succeeds": {
+            "href": "http://localhost/effects?order=desc\u0026cursor=112478312944852993"
+          },
+          "precedes": {
+            "href": "http://localhost/effects?order=asc\u0026cursor=112478312944852993"
+          }
+        },
+        "id": "112478312944852993",
+        "paging_token": "112478312944852993",
+        "transaction_successful": true,
+        "source_account": "GDC35NCQORRH7DDIZ4GHR4OB3V7B35V7CRRIWXTUYNKJFBFPUTBPSCOE",
+        "type": "payment",
+        "type_i": 1,
+        "created_at": "2019-10-07T10:49:18Z",
+        "transaction_hash": "1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3",
+        "asset_type": "credit_alphanum4",
+        "asset_code": "MFN",
+        "asset_issuer": "GC55P5MTVPOPPY7NBBS5RPRUF5K3667ZQ2GN4J5GGE6AZVLPC72S5K46",
+        "from": "GDC35NCQORRH7DDIZ4GHR4OB3V7B35V7CRRIWXTUYNKJFBFPUTBPSCOE",
+        "to": "GBF2RYH7OJOW63HI3CCIF5R7EPK257A3EN6ILH5OGUCJIMR4Z23U6P5V",
+        "amount": "5.0000000"
+      }
+    ]
+  }
+}

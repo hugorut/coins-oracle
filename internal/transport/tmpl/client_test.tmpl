@@ -1,0 +1,145 @@
+package transport_test
+
+import (
+	"net/http"
+	"net/url"
+	"os"
+	"path"
+
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
+	. "github.com/onsi/gomega/gstruct"
+
+	. "github.com/hugorut/coins-oracle/internal/transport"
+	"github.com/hugorut/coins-oracle/pkg/test"
+	. "github.com/hugorut/coins-oracle/pkg/transport"
+)
+
+var _ = Describe("{{ .Name }}Client", func() {
+	var (
+		fb     *test.FixtureBox
+		client CoinClient
+
+		mockServer *test.Server
+	)
+
+	BeforeEach(func() {
+		dir, err := os.Getwd()
+		Expect(err).ToNot(HaveOccurred())
+
+		fb = &test.FixtureBox{
+			Base: path.Join(dir, "../test/fixtures"),
+		}
+
+		mockServer = test.NewTestServer(GinkgoT())
+		u, err := url.Parse(mockServer.HttpTest.URL)
+		Expect(err).ToNot(HaveOccurred())
+
+		client = &{{ .Name }}Client{
+			BaseClient: BaseClient{
+				BaseURL: u,
+				Client:  http.DefaultClient,
+			},
+		}
+	})
+
+	AfterEach(func() {
+		mockServer.Close()
+	})
+
+	Describe("#GetInfo", func() {
+		It("Should return the {{ .Name }} node information transformed to the common output", func() {
+			bestBlockHash := "__TODO__"
+
+			mockServer.Expect(test.ExpectedCall{
+				Path:   "/",
+				Method: "POST",
+				Headers: map[string]string{
+					"Content-Type": "Application/Json",
+				},
+				Body:         MustLoad(fb.LoadFixture("{{ .Snake }}/req/getinfo.json")),
+				Response:     MustLoad(fb.LoadFixture("{{ .Snake }}/res/getinfo.json", bestBlockHash)),
+				ResponseCode: http.StatusOK,
+			})
+
+			info, err := client.GetInfo()
+			Expect(err).ToNot(HaveOccurred())
+
+			Expect(info).To(PointTo(MatchAllFields(Fields{
+				"Data": MatchAllFields(Fields{
+					"Chain":        Equal("__TODO__"),
+					"CurrentBlock": Equal(bestBlockHash),
+					"BlockHeight":  Equal(1234),
+				}),
+			})))
+		})
+	})
+
+	Describe("#GetBalance", func() {
+		It("Should return the {{ .Name }} balance transformed to the common output", func() {
+			addr := "__TODO__"
+			balRes := "__TODO__"
+
+			mockServer.Expect(test.ExpectedCall{
+				Path:   "/",
+				Method: "POST",
+				Headers: map[string]string{
+					"Content-Type": "Application/Json",
+				},
+				Body:         MustLoad(fb.LoadFixture("{{ .Snake }}/req/getbalance.json", addr)),
+				Response:     MustLoad(fb.LoadFixture("{{ .Snake }}/res/getbalance.json", balRes)),
+				ResponseCode: http.StatusOK,
+			})
+
+			balance, err := client.GetBalance(addr)
+			Expect(err).ToNot(HaveOccurred())
+
+			Expect(balance).To(PointTo(MatchAllFields(Fields{
+				"Data": MatchAllFields(Fields{
+					"Assets": ConsistOf(
+						MatchAllFields(Fields{
+							"Asset":   Equal("BTC"),
+							"Balance": Equal("12.000000"),
+						}),
+					),
+				}),
+			})))
+		})
+	})
+
+	Describe("#GetTransactionByHash", func() {
+		It("Should return the {{ .Name }} transaction transformed to the common transaction interface", func() {
+			txID := "__TODO"
+
+			mockServer.Expect(test.ExpectedCall{
+				Path:   "/",
+				Method: "POST",
+				Headers: map[string]string{
+					"Content-Type": "Application/Json",
+				},
+				Body:         MustLoad(fb.LoadFixture("{{ .Snake }}/req/gettransaction.json", txID)),
+				Response:     MustLoad(fb.LoadFixture("{{ .Snake }}/res/gettransaction.json")),
+				ResponseCode: http.StatusOK,
+			})
+
+			tx, err := client.GetTransactionByHash(txID)
+			Expect(err).ToNot(HaveOccurred())
+
+			Expect(tx).To(PointTo(MatchAllFields(Fields{
+				"Data": MatchAllFields(Fields{
+					"Transaction": MatchAllFields(Fields{
+						"ID":    Equal("__TODO__"),
+						"From":  Equal("__TODO__"),
+						"To":    Equal("__TODO"),
+						"Value": Equal("__TODO__"),
+						"Confirmations": MatchAllFields(Fields{
+							"Threshold": PointTo(Equal(int64(5))),
+							"Confirmed": BeTrue(),
+							"Value":     PointTo(Equal("__TODO__")),
+						}),
+					}),
+				}),
+			})))
+		})
+	})
+})

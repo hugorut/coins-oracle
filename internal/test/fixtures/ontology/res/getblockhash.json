@@ -1,0 +1,7 @@
+{
+  "Action": "getblockhash",
+  "Desc": "SUCCESS",
+  "Error": 0,
+  "Result": "%s",
+  "Version": "1.0.0"
+}

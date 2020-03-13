@@ -1,0 +1,8 @@
+{
+  "result": null,
+  "error": {
+    "code": -4,
+    "message": "Wallet is currently rescanning. Abort existing rescan or wait."
+  },
+  "id": "1"
+}

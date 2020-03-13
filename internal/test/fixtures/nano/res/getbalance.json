@@ -1,0 +1,10 @@
+{
+  "frontier": "6875C0DBFE5C44D8F8CFF431BC69ED5587C68F89F0663F2BC1FBBFCB46DC5989",
+  "open_block": "991CF190094C00F0B68E2E5F75F6BEE95A2E0BD93CEAA4A6734DB9F19B728948",
+  "representative_block": "6875C0DBFE5C44D8F8CFF431BC69ED5587C68F89F0663F2BC1FBBFCB46DC5989",
+  "balance": "%s",
+  "modified_timestamp": "1568938232",
+  "block_count": "43",
+  "account_version": "1",
+  "confirmation_height": "43"
+}

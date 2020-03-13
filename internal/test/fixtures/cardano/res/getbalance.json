@@ -1,0 +1,76 @@
+{
+  "Right": {
+    "caAddress": "DdzFFzCqrhsetDGW9EV3pQgGPxeHCyeo7LSruMcvu9U8zUqr23eZVZPL5K6KareJDtQpago7y7R4M3Gd941FvC4BXPULaD8Z8myRiFjj",
+    "caType": "CPubKeyAddress",
+    "caTxNum": 2,
+    "caBalance": {
+      "getCoin": "%s"
+    },
+    "caTxList": [
+      {
+        "ctbId": "dfcdf709c046fd85ca373434fc6386f1a27c0d6792cede2b9cf38c6f4e7394b4",
+        "ctbTimeIssued": 1511264651,
+        "ctbInputs": [
+          [
+            "DdzFFzCqrhsetDGW9EV3pQgGPxeHCyeo7LSruMcvu9U8zUqr23eZVZPL5K6KareJDtQpago7y7R4M3Gd941FvC4BXPULaD8Z8myRiFjj",
+            {
+              "getCoin": "7748527449475"
+            }
+          ]
+        ],
+        "ctbOutputs": [
+          [
+            "DdzFFzCqrht66tunNTdhEUfKFGE5sAqeJjvafxSJ1u7XEh2GBkAR6SZsGetCorjsR2mRreU7SqqddaEeQ13CtFmiBqonPtMUoHvPWkrX",
+            {
+              "getCoin": "7738873796335"
+            }
+          ],
+          [
+            "DdzFFzCqrht2wz9zmY2azGSi8LiZrKbtDEDWsgEhteEyGpfTqeHVUkuarFANvwrNsgecz4WHBKmEAjTe8QuUbj7tTgW2eChF8H4upmxe",
+            {
+              "getCoin": "9653481894"
+            }
+          ]
+        ],
+        "ctbInputSum": {
+          "getCoin": "7748527449475"
+        },
+        "ctbOutputSum": {
+          "getCoin": "7748527278229"
+        }
+      },
+      {
+        "ctbId": "19eda5a47da4c8ec777497d493f6fc9cd1eabd91c8675ce5fac6845fa145dde3",
+        "ctbTimeIssued": 1511264291,
+        "ctbInputs": [
+          [
+            "DdzFFzCqrht6ukBSdkyxNGRUKssf4bVWzcn62shBzS5JiJJctNVfojWGAibdfDJ2Ai8HHLaShKhF917Cjg29L21Y1srWQNd6VodAMMez",
+            {
+              "getCoin": "7778527420721"
+            }
+          ]
+        ],
+        "ctbOutputs": [
+          [
+            "DdzFFzCqrhsetDGW9EV3pQgGPxeHCyeo7LSruMcvu9U8zUqr23eZVZPL5K6KareJDtQpago7y7R4M3Gd941FvC4BXPULaD8Z8myRiFjj",
+            {
+              "getCoin": "7748527449475"
+            }
+          ],
+          [
+            "DdzFFzCqrhsiVcJHfUmbSNxoV3qiZTLRjvnYXFYZkshd2cUfsfnpmW7MXAH7u5Kx92DTWjYaLcXGaqMFAJ59cmF7QNJJeNVaFwgsrCvD",
+            {
+              "getCoin": "29999800000"
+            }
+          ]
+        ],
+        "ctbInputSum": {
+          "getCoin": "7778527420721"
+        },
+        "ctbOutputSum": {
+          "getCoin": "7778527249475"
+        }
+      }
+    ]
+  }
+}

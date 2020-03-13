@@ -1,0 +1,13 @@
+{
+  "blockID": "%s",
+  "block_header": {
+    "raw_data": {
+      "number": 27216,
+      "txTrieRoot": "0000000000000000000000000000000000000000000000000000000000000000",
+      "witness_address": "4127a6419bbe59f4e64a064d710787e578a150d6a7",
+      "parentHash": "0000000000006a4fc3bb4fc54ec07747c7edfd93ff029a5b8721a7227629dcd7",
+      "timestamp": 1529973210000
+    },
+    "witness_signature": "a38ad8823f71b38e207bb019cd3b9e17ade1242776188e0be8bf013ec81dd8e06647d421cfcaedbcec08d9dad403ad46563ecfb9db3234830acb4bdc5480593f01"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "method": "tx",
+    "params": [
+        {
+            "transaction": "%s"
+        }
+    ]
+}

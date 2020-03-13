@@ -1,0 +1,10 @@
+{
+  "Action": "getbalance",
+  "Desc": "SUCCESS",
+  "Error": 0,
+  "Result": {
+    "ont": "%s",
+    "ong": "844093336251080"
+  },
+  "Version": "1.0.0"
+}

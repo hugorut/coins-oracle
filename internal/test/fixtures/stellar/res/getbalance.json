@@ -1,0 +1,110 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW"
+    },
+    "transactions": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/transactions{?cursor,limit,order}",
+      "templated": true
+    },
+    "operations": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "payments": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/payments{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/effects{?cursor,limit,order}",
+      "templated": true
+    },
+    "offers": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/offers{?cursor,limit,order}",
+      "templated": true
+    },
+    "trades": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/trades{?cursor,limit,order}",
+      "templated": true
+    },
+    "data": {
+      "href": "http://127.0.0.1/accounts/GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW/data/{key}",
+      "templated": true
+    }
+  },
+  "id": "GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW",
+  "account_id": "GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW",
+  "sequence": "110851817419571211",
+  "subentry_count": 5,
+  "inflation_destination": "GCCD6AJOYZCUAQLX32ZJF2MKFFAUJ53PVCFQI3RHWKL3V47QYE2BNAUT",
+  "last_modified_ledger": 26187804,
+  "thresholds": {
+    "low_threshold": 2,
+    "med_threshold": 2,
+    "high_threshold": 2
+  },
+  "flags": {
+    "auth_required": false,
+    "auth_revocable": false,
+    "auth_immutable": false
+  },
+  "balances": [
+    {
+      "balance": "0.0000000",
+      "limit": "922337203685.4775000",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "last_modified_ledger": 25813151,
+      "is_authorized": true,
+      "asset_type": "credit_alphanum4",
+      "asset_code": "NRV",
+      "asset_issuer": "GANRAE2FXMIU4V7CPLXFHWZNGCCSW7WEVBN2P3ZWA7FWWVED6OJSKKX2"
+    },
+    {
+      "balance": "0.0000000",
+      "limit": "922337203685.4775000",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "last_modified_ledger": 25813868,
+      "is_authorized": true,
+      "asset_type": "credit_alphanum4",
+      "asset_code": "BTC",
+      "asset_issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+    },
+    {
+      "balance": "0.0000000",
+      "limit": "922337203685.4775000",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "last_modified_ledger": 25813198,
+      "is_authorized": true,
+      "asset_type": "credit_alphanum4",
+      "asset_code": "ETH",
+      "asset_issuer": "GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5"
+    },
+    {
+      "balance": "249.6635636",
+      "buying_liabilities": "0.0000000",
+      "selling_liabilities": "0.0000000",
+      "asset_type": "native"
+    }
+  ],
+  "signers": [
+    {
+      "weight": 1,
+      "key": "GAHDUGJUMUI62AMOHJIIETXF47T64EKFCQVP2HJ5M3UN6LRIYVA2LVLO",
+      "type": "ed25519_public_key"
+    },
+    {
+      "weight": 2,
+      "key": "GCQRQX5OYRYUDI6XYWWY22WFHPIOE2EK5G6UXLUKLAF7OVLR4QD5VDFI",
+      "type": "ed25519_public_key"
+    },
+    {
+      "weight": 1,
+      "key": "GA4MTF3WRJE7I6TSP66PYXBEIS3PPUZEHJYTBMBNAPBBL3TWQWLAZZDW",
+      "type": "ed25519_public_key"
+    }
+  ],
+  "data": {}
+}

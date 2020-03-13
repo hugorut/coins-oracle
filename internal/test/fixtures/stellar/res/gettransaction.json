@@ -1,0 +1,50 @@
+{
+  "memo": "2:2478",
+  "_links": {
+    "self": {
+      "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3"
+    },
+    "account": {
+      "href": "http://localhost/accounts/GDC35NCQORRH7DDIZ4GHR4OB3V7B35V7CRRIWXTUYNKJFBFPUTBPSCOE"
+    },
+    "ledger": {
+      "href": "http://localhost/ledgers/26188398"
+    },
+    "operations": {
+      "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "http://localhost/transactions/1124f249dbf509b2cd22a39595967b6ebb4cfb75d99e405d80b0e0006615f2a3/effects{?cursor,limit,order}",
+      "templated": true
+    },
+    "precedes": {
+      "href": "http://localhost/transactions?order=asc\u0026cursor=112478312944852992"
+    },
+    "succeeds": {
+      "href": "http://localhost/transactions?order=desc\u0026cursor=112478312944852992"
+    }
+  },
+  "id": "%s",
+  "paging_token": "112478312944852992",
+  "successful": true,
+  "hash": "%s",
+  "ledger": 26188398,
+  "created_at": "2019-10-07T10:49:18Z",
+  "source_account": "GDC35NCQORRH7DDIZ4GHR4OB3V7B35V7CRRIWXTUYNKJFBFPUTBPSCOE",
+  "source_account_sequence": "95405195173044768",
+  "fee_paid": 100,
+  "fee_charged": 100,
+  "max_fee": 200,
+  "operation_count": 1,
+  "envelope_xdr": "AAAAAMW+tFB0Yn+MaM8MePHB3X4d9r8UYotedMNUkoSvpML5AAAAyAFS8oUABCIgAAAAAQAAAAAAAAAAAAAAAF2bGEkAAAABAAAABjI6MjQ3OAAAAAAAAQAAAAAAAAABAAAAAEuo4P9yXW9s6NiEgvY/I9Wu/BsjfIWfrjUElDI8zrdPAAAAAU1GTgAAAAAAu9f1k6vc9+PtCGXYvjQvVb97+YaM3iemMTwM1W8X9S4AAAAAAvrwgAAAAAAAAAABr6TC+QAAAEBxRcyMWNK2rcWQrHzSUGnJ02F6+O66qGeDmfvxqFG6LQr1HIiSwK8DPLcDir4mtmL0wRsRDs0IyEkvHNoCFwQB",
+  "result_xdr": "AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=",
+  "result_meta_xdr": "AAAAAQAAAAIAAAADAY+abgAAAAAAAAAAxb60UHRif4xozwx48cHdfh32vxRii150w1SShK+kwvkAAAAAEERNVAFS8oUABCIfAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAY+abgAAAAAAAAAAxb60UHRif4xozwx48cHdfh32vxRii150w1SShK+kwvkAAAAAEERNVAFS8oUABCIgAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAMBj5ptAAAAAQAAAABLqOD/cl1vbOjYhIL2PyPVrvwbI3yFn641BJQyPM63TwAAAAFNRk4AAAAAALvX9ZOr3Pfj7Qhl2L40L1W/e/mGjN4npjE8DNVvF/UuAAAABNq3/sgBY0V4XYoAAAAAAAEAAAAAAAAAAAAAAAEBj5puAAAAAQAAAABLqOD/cl1vbOjYhIL2PyPVrvwbI3yFn641BJQyPM63TwAAAAFNRk4AAAAAALvX9ZOr3Pfj7Qhl2L40L1W/e/mGjN4npjE8DNVvF/UuAAAABN2y70gBY0V4XYoAAAAAAAEAAAAAAAAAAAAAAAMBj5ptAAAAAQAAAADFvrRQdGJ/jGjPDHjxwd1+Hfa/FGKLXnTDVJKEr6TC+QAAAAFNRk4AAAAAALvX9ZOr3Pfj7Qhl2L40L1W/e/mGjN4npjE8DNVvF/UuAAMZecjE9Ul//////////wAAAAEAAAAAAAAAAAAAAAEBj5puAAAAAQAAAADFvrRQdGJ/jGjPDHjxwd1+Hfa/FGKLXnTDVJKEr6TC+QAAAAFNRk4AAAAAALvX9ZOr3Pfj7Qhl2L40L1W/e/mGjN4npjE8DNVvF/UuAAMZecXKBMl//////////wAAAAEAAAAAAAAAAA==",
+  "fee_meta_xdr": "AAAAAgAAAAMBj5ptAAAAAAAAAADFvrRQdGJ/jGjPDHjxwd1+Hfa/FGKLXnTDVJKEr6TC+QAAAAAQRE24AVLyhQAEIh8AAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEBj5puAAAAAAAAAADFvrRQdGJ/jGjPDHjxwd1+Hfa/FGKLXnTDVJKEr6TC+QAAAAAQRE1UAVLyhQAEIh8AAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+  "memo_type": "text",
+  "signatures": [
+    "cUXMjFjStq3FkKx80lBpydNhevjuuqhng5n78ahRui0K9RyIksCvAzy3A4q+JrZi9MEbEQ7NCMhJLxzaAhcEAQ=="
+  ],
+  "valid_after": "1970-01-01T00:00:00Z",
+  "valid_before": "2019-10-07T10:49:45Z"
+}

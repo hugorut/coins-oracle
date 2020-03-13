@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1
+  },
+  "data": [
+    {
+      "address": "%s",
+      "publicKey": "a2c3a994fdf110802d5856ff18f306e7a3731452ed7a0fed8aac48e58fd729aa",
+      "balance": "%s",
+      "secondPublicKey": "0ea2832f28b7803849c0f49a6ae2e6bebf005ea49af3db43b115196e43080f72",
+      "asset": null,
+      "delegate": {
+        "username": "savetheworld",
+        "vote": "5151017511264107",
+        "rewards": "31586000000000",
+        "producedBlocks": 80743,
+        "missedBlocks": 626,
+        "rank": 50,
+        "productivity": 99.23,
+        "approval": 37.91
+      }
+    }
+  ],
+  "links": {}
+}
